@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(76, 76, 76);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: 550px;
+  margin: 20px;
+  height: auto;
+  max-height: calc(100% - 50px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  border-radius: 2px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.all {
+  border-bottom: 1px solid rgb(233, 233, 233);
+  line-height: 40px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.all .icon {
+  cursor: pointer;
+  user-select: none;
+  color: rgb(163, 163, 163);
+  width: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.all .icon.move-icon {
+  cursor: move;
+}
+
+.all input[type='text'] {
+  border: none;
+  width: 100%;
+  line-height: 37px;
+  margin: 0;
+  font-style: italic;
+  outline: none;
+}
+
+.all > .description {
+  width: 100%;
+}
+
+.all .icon:hover {
+  color: rgb(49, 49, 49);
+}
+
+button.all {
+  width: 100%;
+  border: none;
+  background-color: rgb(246, 246, 246);
+  color: rgb(163, 163, 163);
+  user-select: none;
+  cursor: pointer;
+  align-items: center;
+}
+
+.editing > .delete-icon {
+  display: block !important;
+}
+
+li.all > .delete-icon {
+  display: none;
+}
+
+.editing > span {
+  display: none;
+}
+
+.editing > .move-icon {
+  display: none;
+}
+
+.editing {
+  background-color: rgb(255, 255, 232);
+}
+
+.editing > input[type='text'] {
+  display: block !important;
+  width: 100%;
+  background-color: rgb(255, 255, 232);
+  line-height: 38px;
+  height: 40px;
+  font-style: normal;
+}
+
+li.all > input[type='text'] {
+  display: none;
+}
+
+.completed {
+  color: rgb(163, 163, 163);
+  text-decoration: line-through;
+}
