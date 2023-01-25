@@ -9,9 +9,9 @@ import '@fortawesome/fontawesome-free/js/regular.js';
 window.onload = () => {
   const myList = new TodoList('ul');
 
-  const myForm = new Form(myList, {
-    newTaskInput: 'new_task_input',
-    newTaskIcon: 'new_task_icon',
-    clearAllCompletedTasks: 'clear_all_completed_tasks',
+  const myForms = new Form(myList, {
+    newTaskInput: 'taskInput',
+    newTaskIcon: 'taskIcon',
+    clearAllCompletedTasks: 'clearCompleted',
   });
 };

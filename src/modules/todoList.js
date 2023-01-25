@@ -1,4 +1,4 @@
-import Task from './task.js';
+import Tasks from './tasks.js';
 import Form from './form.js';
 import LocalStorage from './localStorage.js';
 
@@ -10,7 +10,7 @@ export default class TodoList {
 
   addTask(description, completed = false) {
     const newIndex = this.tasks.length + 1;
-    const newTask = new Task(description, completed, newIndex);
+    const newTask = new Tasks(description, completed, newIndex);
     this.tasks.push(newTask);
     this.drawTable();
     Form.refreshTasksEvents();

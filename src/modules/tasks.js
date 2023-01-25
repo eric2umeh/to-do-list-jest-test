@@ -1,4 +1,4 @@
-export default class Task {
+export default class Tasks {
   constructor(description, completed, index) {
     this.description = description;
     this.completed = completed;
@@ -16,7 +16,7 @@ export default class Task {
     this.domCheck.checked = this.completed;
 
     this.domSpan = document.createElement('span');
-    this.domSpan.classList.add('description');
+    this.domSpan.classList.add('descriptions');
     this.domSpan.innerHTML = this.description;
 
     if (this.completed) {
@@ -27,11 +27,11 @@ export default class Task {
     this.domInput.type = 'text';
 
     this.domIcon = document.createElement('span');
-    this.domIcon.classList.add('icon', 'move-icon');
+    this.domIcon.classList.add('icon', 'moveIcon');
     this.domIcon.innerHTML = '<i class="fa-solid fa-ellipsis-vertical">';
 
     this.domDeleteIcon = document.createElement('span');
-    this.domDeleteIcon.classList.add('icon', 'delete-icon');
+    this.domDeleteIcon.classList.add('icon', 'deleteIcon');
     this.domDeleteIcon.innerHTML = '<i class="fa-regular fa-trash-can">';
 
     this.domElement.appendChild(this.domCheck);

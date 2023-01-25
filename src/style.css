@@ -12,7 +12,7 @@ main {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: rgb(76, 76, 76);
 }
 
@@ -40,7 +40,7 @@ ul {
 }
 
 .all {
-  border-bottom: 1px solid rgb(233, 233, 233);
+  border-bottom: 1px solid rgb(235, 232, 232);
   line-height: 40px;
   padding: 0 20px;
   display: flex;
@@ -57,42 +57,42 @@ ul {
   justify-content: flex-end;
 }
 
-.all .icon.move-icon {
+.all .icon.moveIcon {
   cursor: move;
 }
 
 .all input[type='text'] {
   border: none;
   width: 100%;
-  line-height: 37px;
+  line-height: 35px;
   margin: 0;
   font-style: italic;
   outline: none;
 }
 
-.all > .description {
+.all > .descriptions {
   width: 100%;
 }
 
 .all .icon:hover {
-  color: rgb(49, 49, 49);
+  color: rgb(38, 37, 37);
 }
 
 button.all {
   width: 100%;
   border: none;
   background-color: rgb(246, 246, 246);
-  color: rgb(163, 163, 163);
+  color: rgb(155, 151, 151);
   user-select: none;
   cursor: pointer;
   align-items: center;
 }
 
-.editing > .delete-icon {
+.editing > .deleteIcon {
   display: block !important;
 }
 
-li.all > .delete-icon {
+li.all > .deleteIcon {
   display: none;
 }
 
@@ -100,7 +100,7 @@ li.all > .delete-icon {
   display: none;
 }
 
-.editing > .move-icon {
+.editing > .moveIcon {
   display: none;
 }
 
