@@ -91,7 +91,7 @@ To run tests, run the following command: Right click on the index.html document 
 👤 **Eric Umeohabike**
 
 - GitHub: [Eric Umeohabike](https://github.com/eric2umeh)
-- Twitter: [Eric Umeohabike](https://twitter.com/eric2umeh)
+- Twitter: [Eric Umeohabike](https://twitter.com/King_Eric_)
 
 
 👤**Chukwuemeka Ochuba**
