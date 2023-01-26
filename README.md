@@ -91,6 +91,14 @@ To run tests, run the following command: Right click on the index.html document 
 👤 **Eric Umeohabike**
 
 - GitHub: [Eric Umeohabike](https://github.com/eric2umeh)
+- Twitter: [Eric Umeohabike](https://twitter.com/King_Eric_)
+
+
+👤**Chukwuemeka Ochuba**
+
+- GitHub: [@Donmark2k](https://github.com/Donmark2k)
+- Twitter: [@Donmark2k](https://twitter.com/donmark2k)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
