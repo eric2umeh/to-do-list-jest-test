@@ -92,6 +92,12 @@ To run tests, run the following command: Right click on the index.html document 
 
 - GitHub: [Eric Umeohabike](https://github.com/eric2umeh)
 
+👤**Chukwuemeka Ochuba**
+
+- GitHub: [@Donmark2k](https://github.com/Donmark2k)
+- Twitter: [@Donmark2k](https://twitter.com/donmark2k)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chukwuemeka-ochuba/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
