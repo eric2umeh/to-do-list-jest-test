@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://eric2umeh.github.io/to-do-list-jext-test/dist/)
+- [Live Demo](https://eric2umeh.github.io/to-do-list-jest-test/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
