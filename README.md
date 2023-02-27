@@ -23,7 +23,7 @@
 
 # 📖 Todo List <a name="about-project"></a>
 
-**Todo List** is a tool for storing all your taks...
+**Todo List** A project that shows the use of Webpack, Jest to bundle JavaScript, proper use of ES6 syntax and ES6 modules to write modular JavaScriptand remove books using ES6.
 
 ## 🛠 Built With <a name="built-with"></a>
 
